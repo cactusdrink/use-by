@@ -1,0 +1,17 @@
+how to build and run use-by:
+------------------------------
+
+1. install xampp
+
+2. open the xampp control panel
+	- start apache
+	- start mysql
+
+3. enter http172.16.1.207phpmyadmin
+	- username root
+	- leave password blank
+
+4. enter folder named 'htdocs' in the xampp folder, e.g.Cxampphtdocs
+	- download and unzip the 'use-by' zip file into htdocs
+
+5. go to localhost/use-by/display.php

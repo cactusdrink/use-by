@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #000000;
+}
+
+.content {
+    padding: 16px;
+}
+
+/*---sticky header---*/
+.sticky-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 10;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 90%;
+}
+.sticky + .content {
+    padding-top: 100x;
+}
